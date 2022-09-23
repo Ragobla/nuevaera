@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dkps</title>
+    <link rel="icon" type="image/x-icon" href="nepagina.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .trElementEmulation li {
+            list-style: none;
+            float: left;
+            padding: 5px 10px;
+            border: 1px solid #eee;
+        }
+    </style>
+    <style>
+        body {
+            font-family: "Lato", sans-serif
+        }
+
+        .mySlides {
+            display: none
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Inicio</a>
+        </div>
+    </div>
+
+    <!-- Contenido -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!-- Main -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+            <img src="nepagina.png">
+            <h2 class="w3-wide"><b>DKPS</b></h2>
+            <p class="w3-justify">
+                <center><b>Los dkps son un sistema de puntos para pujar por los objetos de una raid.</b></center>
+            </p>
+            <p class="w3-justify">Con los dkps lo que se ve es quien está raideando con más frecuencia. Por lo tanto, si
+                un objeto es
+                loteado por dkps y hay varios interesados en el, la persona que ha raideado con más frecuencia, al tener
+                más dkps puede hacer una puja mayor y por lo tanto ganar el objeto.<br><br>
+
+                <b>La puja se inicia con mínimo de dkps el cual dependerá del valor del objeto que se esté loteando.</b>
+                La
+                puja se hace por el chat de banda escribiendo: "-p y el numero de dkps que queremos pujar".
+                Ejemplo: -p 100.<br><br>
+                Todo aquel que quiere subir apuestas tendrá un tiempo determinado para hacerlo con una cuenta atrás que
+                se irá actualizando por banda de manera automática. En el caso de que ganes la puja, los dkps pujados
+                son restados. En caso de que no se gane la puja no se restará ningún dkp.<br><br>
+
+                A la hora de lotear un objeto, <b>primero se tira por Mainspec (a dkps)</b> <u>y si nadie lo quiere</u>
+                <b>se roleará por
+                    dual (a dados) dentro del tiempo de la puja.</b>
+
+                Si se da el caso en el que una persona no tiene dkps suficientes para pujar por un objeto y nadie más lo
+                quiere, se le concede el objeto porque nadie mas lo necesita y se quedará con los dkps en negativo que
+                irá recuperando a lo largo del tiempo con las raids.<br>
+            </p>
+            </p>
+        </div>
+
+        <!-- Apartados -->
+        <div class="w3-black" id="tour">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">Índice</h2>
+                <p class="w3-opacity w3-center"><i>Click para ir al punto que te interese</i></p>
+                <br>
+
+                <div class="w3-button">
+                    <div class="w3-bar w3-black w3-card">
+                        <B><a href="#reparto" class="w3-bar-item w3-button w3-padding-large">REPARTO</a>
+                        <a href="#reparto" class="w3-bar-item w3-button w3-padding-large">RESTA</a>
+                        <a href="#resta" class="w3-bar-item w3-button w3-padding-large">PRORIDAD</a>
+                        <a href="#pitems" class="w3-bar-item w3-button w3-padding-large">PUJAS MÍNIMAS</a>
+                        <a href="#loot" class="w3-bar-item w3-button w3-padding-large">LOOT</a>
+                        <a href="https://webdkp.com/dkp/wow/Nueva+Era/" class="w3-bar-item w3-button w3-padding-large">TABLA DKPS</a></B>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+        <h2 class="w3-wide" id="reparto"><b>REPARTO DE DKPS</b></h2>
+        <table style="width:100%">
+            <tr>
+                <th>Puntualidad</th>
+                <th>Boss NM</th>
+                <th>Boss HC</th>
+                <th>Tiempo</th>
+            </tr>
+            <tr>
+                <td>50 dkps</td>
+                <td>5 dkps</td>
+                <td>15 dkps</td>
+                <td>10 dkps/h</td>
+            </tr>
+        </table>
+        <p class="w3-justify"><br>
+            <center>Todo esto se aplica a Solio del Trueno, en el resto de raids se dará la mitad de lo reflejado
+                arriba.</center>
+        </p>
+    </div>
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+        <h2 class="w3-wide" id="resta"><b>RESTA DE DKPS</b></h2>
+        <table style="width:100%">
+
+            <p class="w3-justify">
+                La mayoría de errores se restarán a criterio de los Oficiales dependiendo del fallo de la persona (temas
+                relacionados con el agro y el topeo, no escuchar, quedarse AFK...) es decir, una persona puede fallar en
+                algún momento (se entiende), pero dicho fallo no debería volver a suceder con frecuencia, de ser así se
+                irán restando dkps según las veces que se ha cometido dicho error (-30, -40, -50...).
+                También se penalizará con -50 DKPS a la persona que no avise que faltará a raid en el canal de DC
+                𝘍𝘢𝘭𝘵𝘢𝘴-𝘺-𝘈𝘶𝘴𝘦𝘯𝘤𝘪𝘢𝘴.
+            </p>
+    </div>
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+        <h2 class="w3-wide" id="rangos"><b>PRIORIDAD DE RANGOS</b></h2>
+
+        <p class="w3-justify">
+            Para evitar casos en los que alguien que ha demostrado cierto grado de compromiso con la hermandad no pueda
+            ser outbideado por una persona que lleve apenas un par de semanas en la guild se establecen unas normas de
+            prioridad las cuales funcionan por rangos: <br> <br>
+
+            <b>Iniciado:</b> No ganará dkps ni podrá pujar, únicamente se podrá llevar ítems que no le sirvan a un rango
+            superior ni por main ni por dual. <br>
+            <b>Miembro:</b> Podrá pujar hasta un máximo de 200 dkps en raids normales y no tendrá prioridad ante rangos
+            superiores (Si el item es Thunderforged NM podrá pujar por su precio mínimo). En Heroico podrá pujar por el
+            precio mínimo de un ítem y sin prioridad ante los rangos superiores.<br>
+            <b>Promesa:</b> Podrá pujar la suma que quiera en raids normales y con la misma prioridad que los rangos
+            superiores. Pujará el precio mínimo de los ítems hc y thunderforged sin prioridad ante rangos
+            superiores.<br>
+            <b>Valiente:</b> Podrán pujar cualquier precio por los ítems. Tendrán la misma prioridad que las Promesas en
+            ítems normales pero más prioridad ítems heroicos.<br>
+            <b>Veterano:</b> Exactamente igual que valiente, solo que si llegas a este rango podrás reservar un item a
+            tu petición que se te otorgará directamente el día que caiga. Si varios Veteranos coinciden en un mismo
+            item, la primera vez que caiga el objeto se le otorgará al primero que haya alcanzado el rango.
+        </p>
+        <br><br>
+        <p class="w3-opacity w3-center"><b>TABLA DE PRIORIDADES</b></p>
+        <img src="a.png"> <br><br><br><br><br>
+
+        <h2 class="w3-wide" id="pitems"><b>PUJAS MÍNIMAS</b></h2>
+        <p class="w3-justify">
+            <center>Dependiendo de la pieza de item que se subaste, el valor inicial en el que partan las pujas variará.
+            </center>
+        </p><br>
+        <p class="w3-opacity w3-center"><b>Tabla de valores mínimos</b></p>
+        <img src="b.png">
+    </div>
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+        <h2 class="w3-wide" id="loot"><b>REPARTO DE LOOT</b></h2>
+
+        <div class="tableElementEmulation">
+            <ul class="trElementEmulation">
+                <li class="tdElementEmulation">Se rolearán todos los objetos primero por MainSpec (con Dkps). Todo aquel
+                    compañero que quiera algún objeto por dual, deberá de tirar dados durante el rolleo por main.</li>
+                <li class="tdElementEmulation">En el caso de que dos personas (o más) tiren la misma cantidad de Dkps
+                    ganará el objeto aquella persona que haya pujado primero teniendo en cuenta siempre los rangos como
+                    viene estipulado en los puntos anteriores.</li>
+                <li class="tdElementEmulation">Aparte del rango y la puja de Dkps se tendrá también en cuenta si el ítem
+                    loteado es BiS de la clase que lo haya ganado, si el ítem no es BiS se le otorgará a otra persona.
+                </li>
+                <li class="tdElementEmulation">En el raro caso de que haya alguna ambigüedad, un vacío legal o cualquier
+                    otro problema que pueda ocasionarse durante el loteo, y las normas no las dejen claras quedará a
+                    decisión del GM u oficial a cargo en ese momento. También se aprovecharán estos errores para seguir
+                    ampliando las normas de loteo para dejar todo lo más cerrado posible y no se presenten estos
+                    problemas.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="w3-button">
+        <div class="w3-bar w3-black w3-card">
+            <a href="https://webdkp.com/dkp/wow/Nueva+Era/" class="w3-bar-item w3-button w3-padding-large"><b>TABLA DE DKPS</b></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
